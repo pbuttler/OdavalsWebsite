@@ -2,28 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="main.css">
 <title>Odaval's Page</title>
 
-
-<style>
-header,footer {
-	padding: 1em;
-    color: white;
-    background-color: #10180D;
-    clear: left;
-    text-align: center;
-}
-</style>
 </head>
 
-<body style="background-color:#0D100B;">
+<body>
 	<header>
 		<h1>Odaval</h1>
 	</header>
 	<infoBanner>
-		<p id="demo" style="color:white;"></p>
+		<p id="time"></p>
 		<script>
-			document.getElementById("demo").innerHTML = Date();
+			document.getElementById("time").innerHTML = Date();
 		</script>
 	</infoBanner>
 	<img src="emblem2e.bmp" style="padding:1em; height:30em; width:50em;">

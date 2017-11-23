@@ -1,0 +1,15 @@
+header,footer {
+	padding: 1em;
+    color: white;
+    background-color: #10180D;
+    clear: left;
+    text-align: center;
+}
+
+body {
+	background-color: #0D100B;
+}
+
+infoBanner {
+	color:white;
+}
